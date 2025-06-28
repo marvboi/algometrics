@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "cd project && vite",
-    "build": "cd project && vite build",
-    "lint": "cd project && eslint .",
-    "preview": "cd project && vite preview"
+    "dev": "cd project && ../node_modules/.bin/vite",
+    "build": "cd project && ../node_modules/.bin/vite build",
+    "lint": "cd project && ../node_modules/.bin/eslint .",
+    "preview": "cd project && ../node_modules/.bin/vite preview"
   },
   "dependencies": {
     "cors": "^2.8.5",
